@@ -9,7 +9,7 @@ namespace eventserveraylal.Controllers
     public class EventController : ControllerBase
     {
         public static List<Event> Events = new List<Event> { new Event { id = 1, description = "Wedding", end = new DateTime(), start = new DateTime() },
-                 new Event{ id = 2, description = "Bar Miztva", start = new DateTime(), end = new DateTime()} };        // GET: api/<EventController>
+                 new Event{ id =3, description = "Bar Miztva", start = new DateTime(), end = new DateTime()} };        // GET: api/<EventController>
         [HttpGet]
         public IEnumerable<Event> Get()
         {
